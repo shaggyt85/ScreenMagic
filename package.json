@@ -7,6 +7,10 @@
     "prestart": "npm list http-server || npm install --save-dev http-server",
     "start": "http-server src -p 8000"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shaggyt85/ScreenMagic.git"
+  },
   "keywords": [
     "node",
     "javascript",
