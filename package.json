@@ -1,0 +1,23 @@
+{
+  "name": "screenmagic",
+  "version": "1.0.0",
+  "description": "El código de la grabadora de pantalla \"ScreenMagic\" es una aplicación que captura la actividad en la pantalla de una computadora y la guarda en formato de video.",
+  "main": "index.js",
+  "scripts": {
+    "prestart": "npm list http-server || npm install --save-dev http-server",
+    "start": "http-server src -p 8000"
+  },
+  "keywords": [
+    "node",
+    "javascript",
+    "screen",
+    "recorder",
+    "video",
+    "capture"
+  ],
+  "author": "Robert Medina",
+  "license": "MIT",
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  }
+}
